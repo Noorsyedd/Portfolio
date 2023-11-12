@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Noor</title>
+        <link rel="stylesheet" href="projects.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        
+        <header>
+            <div class="toggle-bar">&#9776;</div>
+            <div class="logo"><span>N</span>oor.</div>
+            <ul class="navlist">
+                <li><a href="index.html" style="--a:1;" class="active">Home</a></li>
+                <li><a href="about.html" style="--a:2;">About</a></li>
+                <li><a href="#projects" style="--a:3;">Projects</a></li>
+                <li><a href="contact.html" style="--a:4;">Contact</a></li>
+                
+
+            </ul>
+        </header>
+
+      <section class="home">
+       <div class="home-content">
+        <h1>Projects</h1>
+       
+       
+            <div class="info-box">
+                <div class="email-info">
+
+                    <h3>Cloud-Hemosphere</h3>
+                    <p>Cloud HemoSphere is an online cloud service that manages blood donation groups and aims to increase accessibility and efficiency for blood banking in Bangladesh.</p>
+                    
+                    <a href="https://github.com/Noorsyedd/Cloud-Hemosphere" class="email-link">View Project</a>
+
+
+
+                </div>
+                
+                
+
+            </div>
+            <div class="btn-box">
+                <a href="https://profound-nasturtium-efea4e.netlify.app/#">Two Wheeler</a>
+
+                <a href="https://github.com/Noorsyedd/OOP_PROJECT">PMS</a>
+
+                
+
+            </div>
+    </div> 
+    <div class="home-image">
+        <div class="img-box">
+            <img src="" alt="">
+
+        </div>
+      
+
+       
+
+
+    </div>
+    
+   
+      </section>
+      <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Syed Noor. All rights reserved.</p>
+            
+        </div>
+    </footer> 
+    </body>
+
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var toggleBar = document.querySelector(".toggle-bar");
+        var navList = document.querySelector(".navlist");
+
+        toggleBar.addEventListener("click", function () {
+            navList.classList.toggle("show");
+        });
+    });
+</script>
+
+</html>

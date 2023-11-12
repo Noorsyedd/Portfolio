@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Noor</title>
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        
+        <header>
+            <div class="toggle-bar">&#9776;</div>
+            <div class="logo"><span>N</span>oor.</div>
+            <ul class="navlist">
+                <li><a href="index.html" style="--a:1;" class="active">Home</a></li>
+                <li><a href="#about" style="--a:2;">About</a></li>
+                <li><a href="projects.html" style="--a:3;">Projects</a></li>
+                <li><a href="contact.html" style="--a:4;">Contact</a></li>
+                
+
+            </ul>
+        </header>
+
+      <section class="about">
+       <div class="about-content">
+        <h1>About Me</h1>
+        <p style="margin-top: 0.1px;"> Final-year Computer Science and Engineering student skilled in Python, Java, web development, and AWS. Passionate about technology, with notable projects like a Pet Food Dispenser and a Prison Management System. Founder of Cloud HemoSphere for efficient blood banking. Interested in debating, Political Science, and Law.</p>
+        
+        <h3>Skills</h3>
+            <p style="margin-top: 0.1px;">•Soft Skills: Communication, Leadership,Teamwork, Critical Thinking.</p>
+            <p style="margin-top: 0.1px;">•Programming Languages: Python, Java, C++, PHP, SQL</p>
+            <p style="margin-top: 0.1px;">•Web Development: HTML, CSS, JavaScript </p>
+            <p style="margin-top: 0.1px;">•Database Management</p> 
+            <p style="margin-top: 0.1px;">•Cloud Platform: AWS Web Hosting</p>  
+            <p style="margin-top: 0.1px;">•Office Productivity: Word, Docs, Excel, Spreadsheet, PowerPoint, Slides</p>
+            <p style="margin-top: 0.1px;">•IoT (Node MCU, Arduino Uno)</p> 
+            <p style="margin-top: 0.1px;">•UI Design</p> 
+          
+
+       
+      
+       
+       
+            </div>
+
+          
+   
+
+
+    
+    
+   
+      </section>
+      <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Syed Noor. All rights reserved.</p>
+            
+        </div>
+    </footer> 
+    </body>
+    <!-- Add this script at the end of your body tag or in a separate script file -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var toggleBar = document.querySelector(".toggle-bar");
+        var navList = document.querySelector(".navlist");
+
+        toggleBar.addEventListener("click", function () {
+            navList.classList.toggle("show");
+        });
+    });
+</script>
+
+</html>
